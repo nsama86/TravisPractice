@@ -3,5 +3,10 @@ php:
       - '5.4'
       - '5.5'
       - '5.6'
+<<<<<<< HEAD
 
 script: phpunit Test.php
+=======
+      - '7.0'
+      - '7.1'
+>>>>>>> parent of 2e5d07f... modified travis with php script in it and added a new php class file called Test

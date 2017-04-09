@@ -11,7 +11,17 @@ class Test extends PHPUnit_Framework_TestCase
   
   public function testOne(){
     
-    $this->assertEquals(1+1,1);
+    $this->assertEquals(1+1,2);
+  }
+
+  public function testTwo(){
+    $tester = new RandomFunctionsToTest();
+    $name = "Josh";
+    $tester->sayMyName($name);
+
+    $this->assertEquals("Expecting Josh", $tester, "Josh");
+
+
   }
 
 }
